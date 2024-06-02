@@ -1,0 +1,50 @@
+nav{
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 10vh;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+a.active{
+    font-weight: 600;
+    font-style: italic;
+}
+.pro-card{
+    width: 40%;
+    margin: auto;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.pro-card p{
+    text-align: center;
+}
+.pro-bg{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(88, 128, 201);
+    letter-spacing: 1px;
+}
